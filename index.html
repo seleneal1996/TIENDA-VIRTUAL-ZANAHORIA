@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Tienda Selene Barrios</title>
+    <!-- Font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!--Icono de la web-->
+    <link rel="shortcut icon" href="assets/favicon/rabbit-face-emoji.png">
+    <!--Hoja de estilos-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="assets/images/logo2.png" alt="logo"/>
+            </a>
+        </div>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <label for="check" class="esconder-menu">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </label>
+            <ul class="menu-horizontal">    
+                <li>
+                    <a href="#">Nosotros</a>
+                    <ul class="menu-vertical">
+                        <li><a href="./pages/historia.html">Nuestra historia</a></li>
+                        <li><a href="./pages/mision_vision.html">Mision y Vision</a></li>
+                        <li><a href="./pages/valores.html">Nuestros Valores</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Eventos</a>
+                    <ul class="menu-vertical">
+                        <li><a href="./pages/calendar.html">Calendario</a></li>
+                        <li><a href="./pages/galeria.html">Fotos</a></li>
+                    </ul>
+                </li>
+            
+                <li><a href="#">Productos</a>
+                    <ul class="menu-vertical">
+                        <li><a href="#">Comederos</a></li>
+                        <li><a href="#">Camas</a></li>
+                        <li><a href="#">Comida</a></li>
+                    </ul>
+                </li>
+                <li><a href="./pages/galeria.html">Blog</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="contenido-banner">
+                <h3><span>ZANAHORIA </span> <br> Refugios y Criaderos</h3>
+                <a href="#" class="boton-empezar">Empezar</a>
+            </div>
+        </section>
+    
+    
+        <section id="personal">
+            <div>
+                <img src="./assets/images/usuario1.jpeg" alt="foto-veterinario">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, pariatur!</p>
+                <a href="#" class="boton-saber-mas">Saber mas</a>
+            </div>
+    
+            <div>
+                <img src="./assets/images/usuario1.jpeg" alt="foto-veterinario">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, pariatur!</p>
+                <a href="#" class="boton-saber-mas">Saber mas</a>
+            </div>
+    
+            <div>
+                <img src="./assets/images/usuario1.jpeg" alt="foto-veterinario">
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, pariatur!</p>
+                <a href="#" class="boton-saber-mas">Saber mas</a>
+            </div>
+        </section>
+    
+        <section id="servicios">
+            <div class="contenido-servicios">
+                <div>
+                    <i class="fa-solid fa-truck-fast fa-3x"></i>
+                    <h6>Servicio a domicilio</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, necessitatibus?</p>
+                </div>
+    
+                <div> 
+                    <i class="fa-solid fa-box fa-3x"></i>
+                    <h6>Variedad de productos</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti.</p>
+                </div>
+    
+                <div id="icon-servicio">
+                    <i class="fa-regular fa-credit-card fa-3x"></i>
+                    <h6>Aceptamos todas las tarjetas</h6>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, ipsam.</p>
+                </div>
+            </div>
+            <div class="boton-servicios">
+                <a href="#" class="boton-saber-mas">Saber mas</a>
+            </div>
+        </section>
+    
+        <section id="contacto">
+            <h4>Contacta con nosotros</h4>
+            <form action="#">
+                <div class="datos-form">
+                    <div class="nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+                <div class="mensaje">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div class="boton-formulario">
+                    <a href="#" class="boton-saber-mas">Enviar mensaje</a>
+                </div>
+                
+            </form>
+        </section>    
+    </main>
+
+
+    <footer>
+        <p>&copy;2022 Zanahoria</p>
+        <a href="https://www.instagram.com/zanahoriarefugios/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""class="logo-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+    </footer>
+</body>
+</html>
