@@ -416,46 +416,14 @@ footer{
 /*Historia**/
 
 /* Grid styles -------------------------------------------------*/
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: auto ; /*definir alto de filas*/
-  grid-gap: 30px;
-  padding: 50px; 
-}
-
 .leading {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url('https://w0.peakpx.com/wallpaper/901/820/HD-wallpaper-three-rabbits-sitting-on-the-grass-on-grass-rabbits-the-three-sitting.jpg') center #333 no-repeat;
+  background: url('/assets/images/img1.png') center #333 no-repeat;
   background-size: cover;
 }
 
-.cards {
-  max-width: 960px;
-  margin: 0 auto 30px;
-}
-.cards-item{
-  position: relative;
-}
-
-.card-img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /*LA IMAGEN NO SE ME DISTORCIONA*/
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px grey;
-}
-
-.card-title{
-  position: absolute;
-  bottom: 0; /*se pone abajo*/
-  color: white;
-  background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,1));/*degradado*/
-  margin:0;
-  padding: 10px;
-}
 .historia__sectionContainer {
   width: 90%;
   margin: 4rem auto;
@@ -468,6 +436,8 @@ footer{
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .historia__sectionContainer .historia__dataContainer p {
@@ -505,6 +475,8 @@ footer{
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .mision__sectionContainer .mision__dataContainer p {
   text-align: justify;
@@ -514,6 +486,8 @@ footer{
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .mision__sectionContainer2 .mision__dataContainer2 p {
   text-align: justify;
@@ -523,6 +497,8 @@ footer{
 .wrapper h1{
   margin-bottom: 100px;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .team{
   display: flex;
@@ -583,33 +559,15 @@ footer{
   border-radius: 50%;
   background-size: 100% auto;
 }
-.team_presentation{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: auto;
-}
-
-.team_presentation .team_presentation-photo img{
-  width: auto;
-  height: auto;
+.team_img img{
+  height: 100%;
+  width: 100%;
   object-fit: cover;
-  margin: 20px;
-  position: relative;
-} 
-@media screen and (orientation: landscape) {
-	.team_presentation {
-		flex-direction: row;
-	}
 }
-/* Posición vertical */
-@media screen and (orientation: portrait) {
-	.team_presentation{
-		flex-direction: column;
-	}
+.team_img col-lg-4{
+  margin: 0 !important;
+  padding: 25px;
 }
-
 
 /*Valores*/
 .valores_sectionContainer{
