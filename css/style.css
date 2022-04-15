@@ -151,7 +151,7 @@ nav{
   background: rgb(29, 110, 83);
 }
 
-/*Media Querys
+/*Media Querys*/
 @media(max-width: 768px)
 {
   .menu-horizontal
@@ -218,7 +218,7 @@ nav{
     right: 0;
     display: none;
   } 
-}*/
+}
 
 
 /*PERSONAL*/
@@ -797,4 +797,17 @@ aside > div{
   }
 }
 
-/***/
+/**GALERIA CON BOOTSTRAP*/
+#galeria .col-lg-4{
+  margin: 0 !important;
+  padding: 25px;
+}
+#galeria img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*LA IMAGEN NO SE ME DISTORCIONA*/
+}
+
+#galeria img:hover{
+  border:5px solid green;
+}
