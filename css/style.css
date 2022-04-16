@@ -573,43 +573,42 @@ footer{
 .valores_sectionContainer{
   width: 90%;
   margin: 4rem auto;
-  align-items: center;
 }
-
 .valores_sectionContainer h1{
   text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 .valores_sectionContainer p{
   text-align: justify;
 }
-.valores__sectionContainer{
-  width: 90%;
-  margin: 4rem auto;
+.valores_Container{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 80px; /*espaciado*/
+  padding: 20px;
+  grid-gap: 40px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,auto);
 }
-.valores_dataContainer{
-  position: relative;
+
+.valores_Container > div,
+.valores_Container .valores_dataContainer{
+  background-color: #f7b96d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
-.valores__sectionContainer .valores_dataContainer h1 {
-  text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
+
+.valores_Container .valores_dataContainer h1{
   color: #008000;
+  text-transform: uppercase;
 }
 
-.valores__sectionContainer .valores_dataContainer p {
-  text-align: justify;
+@media(max-width:768px){
+  .valores_Container .valores_dataContainer{
+    grid-column: 1/-1;
+
+  }
 }
 
-.valores_dataContainer h1{
-  text-align: center;
-}
 
 
 /****calendario**/
@@ -617,7 +616,7 @@ footer{
   width: 90%;
   margin: 4rem auto;
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 20px;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(3,auto);
 }
@@ -767,5 +766,5 @@ aside > div{
 }
 
 #galeria img:hover{
-  border:5px solid green;
+  border:5px solid #f7b96d;
 }
