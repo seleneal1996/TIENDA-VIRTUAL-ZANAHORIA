@@ -9,6 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!--Icono de la web-->
     <link rel="shortcut icon" href="assets/favicon/rabbit-face-emoji.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--Hoja de estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
@@ -49,124 +50,105 @@
             
                 <li><a href="#">Productos</a>
                     <ul class="menu-vertical">
+                        <li><a href="../pages/productos-camas.html">Camas</a></li>
+                        <li><a href="../pages/productos-comida.html">Comida</a></li>
                         <li><a href="#">Comederos</a></li>
-                        <li><a href="#">Camas</a></li>
-                        <li><a href="#">Comida</a></li>
                     </ul>
                 </li>
-                <li><a href="./pages/galeria.html">Blog</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/blog.html">Blog</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
         <section class="leading"></section>
-        <section class="calendar__sectionContainer">
-            <section class="calendar__dataContainer">
-                <h1>Eventos del mes</h1>
-                <div class="calendar">
-                    <div class="header_calendar">
-                      <h1>Abril 2022</h1>
+        <section id="blog" class="container">
+            <div class="text-center pt-5">
+                <h1>BLOG DE LOS CONEJOS</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://bunnylovers.cl/wp-content/uploads/2022/01/imagen-3-300x179.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Esterilización y castración? ¿Para qué?</h5>
+                            <h6> <i class="fa-solid fa-calendar-day"></i>19/01/2022</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione minima fugiat provident corporis alias sapiente dignissimos consequuntur enim beatae?</p>
+                        </div>
                     </div>
-                  
-                    <ul class="weekdays">
-                      <li>
-                        <abbr title="D">D</abbr>
-                      </li>
-                      <li>
-                        <abbr title="L">L</abbr>
-                      </li>
-                      <li>
-                        <abbr title="M">M</abbr>
-                      </li>
-                      <li>
-                        <abbr title="Mx">Mx</abbr>
-                      </li>
-                      <li>
-                        <abbr title="J">J</abbr>
-                      </li>
-                      <li>
-                        <abbr title="V">V</abbr>
-                      </li>
-                      <li>
-                        <abbr title="S">S</abbr>
-                      </li>
-                    </ul>
-                  
-                    <ol class="day-grid">
-                      <li class="month=prev">29</li>
-                      <li class="month=prev">30</li>
-                      <li class="month=prev">31</li>
-                      <li> <img src="https://live.hsmob.io/storage/images/wakyma.com/wakyma.com_cuanto-tiempo-debe-salir-el-conejo-de-la-jaula-a-diario.jpg" alt=""></li>
-                      <li>2</li>
-                      <li>3</li>
-                      <li>4</li>
-                      <li>5</li>
-                      <li>6</li>
-                      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzD2B1XJobxTMTgZxuREUSJL2HvO1g8aZ9Mw&usqp=CAU" alt=""></li>
-                      <li>8</li>
-                      <li>9</li>
-                      <li>10</li>
-                      <li>11</li>
-                      <li>12</li>
-                      <li>13</li>
-                      <li>14</li>
-                      <li>15</li>
-                      <li>16</li>
-                      <li>17</li>
-                      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4MBR1Au9FMY4MG3RiT2VdAWX-WLfCc2EoWA&usqp=CAU" alt=""></li>
-                      <li>19</li>
-                      <li>20</li>
-                      <li>21</li>
-                      <li>22</li>
-                      <li>23</li>
-                      <li>24</li>
-                      <li>25</li>
-                      <li>26</li>
-                      <li>27</li>
-                      <li>28</li>
-                      <li>29</li>
-                      <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQkZ46C3QaKwL4nH9p4q-mu-I2BU_JKj4ww&usqp=CAU" alt=""></li>
-                      <li class="month-next">1</li>
-                      <li class="month-next">2</li>
-                    </ol>
-                  </div>
-            </section>
-            <aside class="sidebar">
-                <div class="descripcion-evento">
-                    <h1><span>Miercoles </span> 01</h1>
-                    <h2>09:45</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptatibus? Debitis explicabo dolores mollitia quas minima qui recusandae, dolorem cum!</p>
                 </div>
-                <div class="descripcion-evento">
-                    <h1><span>Martes </span> 07</h1>
-                    <h2>09:45</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam molestiae ratione ab laudantium omnis pariatur dolores incidunt nihil soluta eligendi.</p>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://bunnylovers.cl/wp-content/uploads/2022/01/imagen-4-300x160.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Hay juguetes para conejos?…no sabía!</h5>
+                            <h6> <i class="fa-solid fa-calendar-day"></i>31/01/2022</h6>
+                            <p class="card-text" class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione minima fugiat provident corporis alias sapiente dignissimos consequuntur enim beatae?</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="descripcion-evento">
-                    <h1><span>Sabado </span>18</h1>
-                    <h2>09:45</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto quae officia facilis quisquam quaerat, beatae exercitationem provident at expedita nostrum!</p>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://bunnylovers.cl/wp-content/uploads/2021/09/mujer-acariciando-adorable-conejo_23-2148740521-360x239.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Cómo hacer la maniobra de Heimlich a un conejo?</h5>
+                            <h6> <i class="fa-solid fa-calendar-day"></i>05/02/2022</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione minima fugiat provident corporis alias sapiente dignissimos consequuntur enim beatae?</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="descripcion-evento">
-                    <h1><span>Jueves </span> 30</h1>
-                    <h2>09:45</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maxime cumque officia molestias, at nesciunt nisi. Reprehenderit aperiam debitis ducimus.</p>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://bunnylovers.cl/wp-content/uploads/2021/09/photo-1619447257726-fe312296ee9b-334x240.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Cómo hacer un examen físico completo a mi conejo en casa?</h5>
+                            <h6> <i class="fa-solid fa-calendar-day"></i>11/02/2022</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione minima fugiat provident corporis alias sapiente dignissimos consequuntur enim beatae?</p>
+                        </div>
+                    </div>
                 </div>
-            </aside> 
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://bunnylovers.cl/wp-content/uploads/2021/08/lindo-conejo-comiendo-verduras-sobre-fondo-amarillo_42044-4830.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Cómo elegir el nombre correcto para mi conejo?</h5>
+                            <h6> <i class="fa-solid fa-calendar-day"></i>15/02/2022</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione minima fugiat provident corporis alias sapiente dignissimos consequuntur enim beatae?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="https://bunnylovers.cl/wp-content/uploads/2021/08/photo-1599169713100-120531cef331-334x240.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Qué cuidados debe recibir una coneja embarazada?</h5>
+                            <h6> <i class="fa-solid fa-calendar-day"></i>01/03/2022</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione minima fugiat provident corporis alias sapiente dignissimos consequuntur enim beatae?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
+        
     </main>
-    
-    
-    
-
-
+       
     <footer>
         <p>&copy;2022 Zanahoria</p>
         <a href="https://www.instagram.com/zanahoriarefugios/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
         <a href=""><i class="fa-brands fa-facebook"></i></a>
         <a href=""class="logo-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 </body>
 </html>

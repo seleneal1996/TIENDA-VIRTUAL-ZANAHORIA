@@ -335,6 +335,15 @@ nav{
   color: white;
 }
 
+#contacto h5{
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color:white;
+  font-weight: bold;
+}
+
 #contacto form{
   max-width: 80%;
   margin: 0 auto;
@@ -781,3 +790,16 @@ aside > div{
   height: 100%;
   object-fit: cover; /*LA IMAGEN NO SE ME DISTORCIONA*/
 }
+
+/*BLOG*/
+
+#blog .col-lg-4{
+  margin: 0 !important;
+  padding: 25px;
+}
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*LA IMAGEN NO SE ME DISTORCIONA*/
+}
+
