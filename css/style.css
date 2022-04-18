@@ -187,15 +187,6 @@ header{
   color: white;
 }
 
-#contacto h5{
-  text-align: center;
-  font-size: 15px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  color:white;
-  font-weight: bold;
-}
-
 #contacto form{
   max-width: 80%;
   margin: 0 auto;
@@ -317,7 +308,8 @@ footer{
   margin: 4rem auto;
   align-items: center;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(5,auto);
 }
 
 .mision__sectionContainer2{
@@ -327,7 +319,27 @@ footer{
 }
 .mision__sectionContainer2{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3,1fr);
+}
+.mision__sectionContainer2 .mision__dataContainer2{
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+.mision__dataContainer{
+  background:#78bfd3;
+  margin: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  padding: 25px;  
+  position: relative;
+  border-radius: 15px;
+}
+.mision__dataContainer2{
+  background:#78bfd3;
+  margin: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  padding: 50px;  
+  position: relative;
+  border-radius: 25px;
 }
 .mision__sectionContainer .mision__dataContainer{
   padding: 2rem;
@@ -338,6 +350,7 @@ footer{
   margin-bottom: 1rem;
   text-transform: uppercase;
   font-weight: bold;
+  color: #eaeaea;
 }
 .mision__sectionContainer .mision__dataContainer p {
   text-align: justify;
@@ -349,9 +362,98 @@ footer{
   margin-bottom: 1rem;
   text-transform: uppercase;
   font-weight: bold;
+  color: #eaeaea;
 }
 .mision__sectionContainer2 .mision__dataContainer2 p {
   text-align: justify;
+}
+@media(max-width:768px){
+  .mision__dataContainer{
+    grid-column: 1/-1;
+
+  }
+}
+/*----  Main Style  ----*/
+#cards_landscape_wrap-2{
+  text-align: center;
+  background-image: url(../assets/images/voluntario_back.png);
+}
+#cards_landscape_wrap-2 .container{
+  padding-top: 80px; 
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a{
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+  -webkit-transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+  width: 100%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box{
+  text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+  padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer{
+  background: #FFFFFF;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;51d1f6
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+  margin-top: 0px;
+  margin-bottom: 4px; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto Black', sans-serif;
+  letter-spacing: 1px;
+  color: #00acc1;
 }
 
 /*EQUIPO DE TRABAJO*/  
@@ -360,6 +462,7 @@ footer{
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  color: #eaeaea;
 }
 .team{
   display: flex;
@@ -649,9 +752,19 @@ aside > div{
   margin: 0 !important;
   padding: 25px;
 }
-.card img{
+.card {
+  height: 700px;
+  transition: all 0.2s ease;
+  cursor: pointer
+}
+.card-img-top {
   width: 100%;
   height: 100%;
-  object-fit: cover; /*LA IMAGEN NO SE ME DISTORCIONA*/
+  object-fit: cover;
+  }
+
+.card:hover {
+  box-shadow: 5px 6px 6px 2px #7c7b7a;
+  transform: scale(1.1)
 }
 
