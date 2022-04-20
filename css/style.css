@@ -70,7 +70,7 @@ header{
 }
 
 .boton-empezar:hover{
-  background: rgb(29, 110, 83);
+  background: rgb(230, 159, 79);
 }
 
 /*PERSONAL*/
@@ -110,8 +110,8 @@ header{
 }
 
 .boton-saber-mas:hover{
-  background: rgb(29, 110, 83);
-  color: white;
+  background: rgb(79, 87, 84);
+  color: rgb(255, 255, 255);
 }
 
 @media(max-width:768px){
@@ -174,6 +174,25 @@ header{
 
 
 /*FORMULARIO*/
+#newsletter{
+  padding:100px 200px;
+}
+#newsletter h4{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+#contacto2{
+  background-color: #8dca8d;
+}
+#contacto2 h4{
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: white;
+}
 #contacto{
   padding: 100px 0px;
   background-color: #84D991;
@@ -199,7 +218,7 @@ header{
 }
 
 .datos-form div{
-  padding: 10px;
+  padding: 30px;
   flex: 1;
 }
 
@@ -329,13 +348,13 @@ footer{
   background:#78bfd3;
   margin: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
-  padding: 25px;  
+  padding: 50px;  
   position: relative;
   border-radius: 15px;
 }
 .mision__dataContainer2{
   background:#78bfd3;
-  margin: 50px;
+  margin: 10px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
   padding: 50px;  
   position: relative;
