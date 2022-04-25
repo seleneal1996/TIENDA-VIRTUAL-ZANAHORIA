@@ -142,3 +142,25 @@ section#contacto {
       transition: 0.4s; }
       section#contacto form .boton-formulario .boton-saber-mas:hover {
         background: #1d6e53; }
+
+.leading {
+  height: 240px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: url("/assets/images/img1.png") center no-repeat;
+  background-size: cover; }
+
+.historia__sectionContainer {
+  width: 90%;
+  margin: 4rem auto;
+  align-items: center; }
+  .historia__sectionContainer .historia__dataContainer {
+    padding: 2rem; }
+    .historia__sectionContainer .historia__dataContainer h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      font-weight: bold; }
+    .historia__sectionContainer .historia__dataContainer p {
+      text-align: justify; }
