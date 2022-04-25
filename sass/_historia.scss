@@ -1,0 +1,28 @@
+// LINEA 287 HISTORIA
+
+.leading {
+    height: 240px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: url('/assets/images/img1.png') center no-repeat;
+    background-size: cover;
+}
+
+.historia__sectionContainer {
+    width: 90%;
+    margin: 4rem auto;
+    align-items: center;
+    .historia__dataContainer{
+        padding: 2rem;
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+}

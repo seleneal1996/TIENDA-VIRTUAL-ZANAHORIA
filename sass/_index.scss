@@ -1,0 +1,174 @@
+header{
+    background-color:#2CB249;
+    .logo_header{
+        height: 3rem;
+        width: 3rem;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+section #banner{
+    padding: 0 50px;
+    background-image: url(../assets/images/logo.jpg);
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    &::before{
+        content: '';
+        background: rgba(77,77,92, 0.6);
+        position: absolute;
+        width: 100%;
+        height: 45vh;
+        left: 0;
+    }
+
+    .contenido-banner{
+        position: relative;
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        h3{
+            font-size:30px;
+            font-weight: 400;
+            padding: 10px 0px;
+            span {
+                font-weight: 600;
+            }
+        }
+        a{
+            text-transform: uppercase;
+        }
+    }
+}
+
+section #personal{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    div{
+        padding: 30px 30px;
+        img{
+            border-radius: 100px;
+        }
+        h4{
+            color: #4d4d4d;
+            font-size: 20px;
+            margin: 15px 0px;
+        }
+        p{
+            color: green;
+            font-size: 18px;
+        }
+        .boton-saber-mas{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #f59622;
+            padding: 10px 30px;
+            border: 2px solid gray;
+            border-radius: 30px;
+            margin-top: 15px;
+            transition: all 0.4s;
+
+            &:hover{
+                background: rgb(79, 87, 84);
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}
+
+section#servicios{
+    padding: 0px 50px;
+    background:rgba(77, 77, 92, 0.6);
+    .contenido-servicios{
+        padding: 60px 60px 0px 60px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        div{
+            flex: 1;
+            margin: 20px 0px;
+            border-right: 2px solid rgba(255, 255,255, 0.2);
+            i{
+                color: #F2F2F2;
+            }
+            h6{
+                color: #fff;
+                font-size: 20px;
+                font-weight: 100;
+                margin: 10px 0px;
+            }
+            p{
+                color: rgba(255, 255,255, 0.55);
+                font-size: 15px;
+            }
+        }
+        div#icon-servicio{
+            border: none;
+        }
+    }
+    .boton-servicios{
+        text-align: center;
+        padding-bottom: 50px;
+        .boton-saber-mas{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #f59622;
+            padding: 10px 30px;
+            border: 2px solid gray;
+            border-radius: 30px;
+            margin-top: 15px;
+            transition: all 0.4s;
+        }
+    }
+}
+
+
+section#contacto{
+    padding: 100px 0px;
+    background-color: #84D991;
+    h4{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: white;
+    }
+    form{
+        max-width: 80%;
+        margin: 0 auto;
+        .datos-form{
+            display: flex;
+            color: white;
+            font-size: 15px;
+            div{
+                padding: 30px;
+                flex: 1;
+            }
+        }
+
+        .mensaje{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            color: white;
+        }
+        .boton-formulario{
+            display: block;
+            color: white;
+            text-align: center;
+            transition: 0.4s;
+            .boton-saber-mas:hover{
+                background: rgb(29, 110, 83);
+            }
+        }
+    }
+}

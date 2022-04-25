@@ -1,0 +1,134 @@
+// LINEA 323
+.logo_header{
+    height: 3rem;
+    width: 3rem;
+}
+
+.leading {
+    height: 240px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: url('/assets/images/img1.png') center no-repeat;
+    background-size: cover;
+}
+
+.mision__sectionContainer2{
+    width: 90%;
+    margin: 4rem auto;
+    align-items: center;
+    .mision__dataContainer2{
+        background:#78bfd3;
+        margin: 10px;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+        padding: 50px;  
+        position: relative;
+        border-radius: 25px;
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #eaeaea;
+          }
+          p {
+            text-align: justify;
+          }
+      }
+  }
+
+.mision__sectionContainer{
+  width: 90%;
+  margin: 4rem auto;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(5,auto);
+  .mision__dataContainer{
+    background:#78bfd3;
+    margin: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    padding: 50px;  
+    position: relative;
+    border-radius: 15px;
+    h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #eaeaea;
+      }
+      p {
+        text-align: justify;
+      }
+  }
+}
+
+// equipo de trabajo 
+
+.wrapper{
+    margin-bottom: 100px;
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #eaeaea;
+    }
+    .team{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        flex-wrap: wrap;
+        .team_member{
+            background: #ffc168;
+            margin: 50px;
+            margin-bottom: 50px;
+            width: 500px;
+            padding: 50px;  
+            position: relative;
+            border-radius: 25px;
+            background-color: #FDFD96;
+            box-shadow: 10px 5px 5px grey;
+            .team_img{
+                position: absolute;
+                top: -50px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background: #fff;
+                img{
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    background-repeat: no-repeat;
+                    background-position: 50%;
+                    border-radius: 50%;
+                    background-size: 100% auto;
+                }
+            }
+            h3{
+                margin: 50px;
+                color: green;
+                font-size: 26px;
+                margin-top: 50px;
+            }
+            .team_role{
+                margin: 15px;
+                margin-top: 15px;
+                text-transform: uppercase;
+                color: #333;
+            }
+            p{
+                text-align: justify;
+            }
+        } 
+    }
+}
+
+
+
+
