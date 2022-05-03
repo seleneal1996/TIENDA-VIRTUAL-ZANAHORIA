@@ -1,0 +1,41 @@
+//Linea 556
+.logo_header{
+    height: 3rem;
+    width: 3rem;
+}
+
+.leading {
+    height: 240px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: url('/assets/images/img1.png') center no-repeat;
+    background-size: cover;
+}
+
+.valores_sectionContainer{
+    width: 90%;
+    margin: 4rem auto;
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+    }
+    .valores_Container{
+        display: grid;
+        padding: 20px;
+        grid-gap: 40px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,auto);
+        div, .valores_Container .valores_dataContainer{
+            background-color: #f7b96d;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            h1{
+                color: #008000;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
