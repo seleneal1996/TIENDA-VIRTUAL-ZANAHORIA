@@ -306,3 +306,130 @@ section#contacto {
       .valores_sectionContainer .valores_Container div h1, .valores_sectionContainer .valores_Container .valores_Container .valores_dataContainer h1 {
         color: #008000;
         text-transform: uppercase; }
+
+.logo_header {
+  height: 3rem;
+  width: 3rem; }
+
+.leading {
+  height: 240px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: url("/assets/images/img1.png") center no-repeat;
+  background-size: cover; }
+
+.calendar__sectionContainer {
+  width: 90%;
+  margin: 4rem auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto); }
+  .calendar__sectionContainer .calendar__dataContainer, .calendar__sectionContainer div, .calendar__sectionContainer aside {
+    padding: 20px;
+    border-radius: 4px; }
+    .calendar__sectionContainer .calendar__dataContainer h1, .calendar__sectionContainer div h1, .calendar__sectionContainer aside h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      margin-bottom: 1rem; }
+    .calendar__sectionContainer .calendar__dataContainer .calendar, .calendar__sectionContainer div .calendar, .calendar__sectionContainer aside .calendar {
+      background-color: white;
+      border-radius: 30px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden; }
+      .calendar__sectionContainer .calendar__dataContainer .calendar .header_calendar, .calendar__sectionContainer div .calendar .header_calendar, .calendar__sectionContainer aside .calendar .header_calendar {
+        display: flex;
+        align-items: center; }
+        .calendar__sectionContainer .calendar__dataContainer .calendar .header_calendar h1, .calendar__sectionContainer div .calendar .header_calendar h1, .calendar__sectionContainer aside .calendar .header_calendar h1 {
+          font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+          justify-content: center;
+          margin-bottom: 2em;
+          color: #008000;
+          min-height: 10vh;
+          text-align: center; }
+      .calendar__sectionContainer .calendar__dataContainer .calendar ul .weekdays, .calendar__sectionContainer div .calendar ul .weekdays, .calendar__sectionContainer aside .calendar ul .weekdays {
+        margin-bottom: 1em; }
+        .calendar__sectionContainer .calendar__dataContainer .calendar ul .weekdays li, .calendar__sectionContainer div .calendar ul .weekdays li, .calendar__sectionContainer aside .calendar ul .weekdays li {
+          height: 4vw;
+          color: #2CB249; }
+          .calendar__sectionContainer .calendar__dataContainer .calendar ul .weekdays li abbr[title], .calendar__sectionContainer div .calendar ul .weekdays li abbr[title], .calendar__sectionContainer aside .calendar ul .weekdays li abbr[title] {
+            border: none;
+            font-weight: 800;
+            text-decoration: none; }
+      .calendar__sectionContainer .calendar__dataContainer .calendar ol.day-grid li, .calendar__sectionContainer div .calendar ol.day-grid li, .calendar__sectionContainer aside .calendar ol.day-grid li {
+        background-color: #eaeaea;
+        border: 1px solid #eaeaea;
+        height: 12vw;
+        max-height: 125px; }
+        .calendar__sectionContainer .calendar__dataContainer .calendar ol.day-grid li img, .calendar__sectionContainer div .calendar ol.day-grid li img, .calendar__sectionContainer aside .calendar ol.day-grid li img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+  .calendar__sectionContainer aside {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-rows: repeat(4, 1fr); }
+    .calendar__sectionContainer aside div {
+      background-color: #eaeaea;
+      padding: 20px;
+      border-radius: 10px; }
+      .calendar__sectionContainer aside div h1, .calendar__sectionContainer aside div h2 {
+        padding: 5px;
+        text-align: center;
+        color: #2CB249; }
+      .calendar__sectionContainer aside div p {
+        padding: 20px;
+        text-align: justify; }
+
+.logo_header {
+  height: 3rem;
+  width: 3rem; }
+
+.leading {
+  height: 240px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: url("/assets/images/img1.png") center no-repeat;
+  background-size: cover; }
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+  #galeria .col-lg-4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+    #galeria .col-lg-4 img:hover {
+      border: 5px solid #f7b96d; }
+
+.logo_header {
+  height: 3rem;
+  width: 3rem; }
+
+.leading {
+  height: 240px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: url("/assets/images/img1.png") center no-repeat;
+  background-size: cover; }
+
+#blog .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+  #blog .col-lg-4 .card {
+    transition: all 0.2s ease;
+    cursor: pointer; }
+    #blog .col-lg-4 .card img {
+      height: 280px; }
+    #blog .col-lg-4 .card h2 {
+      font-size: medium; }
+    #blog .col-lg-4 .card h3 {
+      font-size: small;
+      color: #222; }
+    #blog .col-lg-4 .card p {
+      text-align: justify; }
+    #blog .col-lg-4 .card:hover {
+      box-shadow: 5px 6px 6px 2px #7c7b7a;
+      transform: scale(1.1); }

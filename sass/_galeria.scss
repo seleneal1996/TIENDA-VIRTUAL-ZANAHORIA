@@ -1,0 +1,28 @@
+//linea 749
+
+.logo_header{
+    height: 3rem;
+    width: 3rem;
+}
+
+.leading {
+    height: 240px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: url('/assets/images/img1.png') center no-repeat;
+    background-size: cover;
+}
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        &:hover{
+            border:5px solid #f7b96d;
+        }
+    }
+      
+}

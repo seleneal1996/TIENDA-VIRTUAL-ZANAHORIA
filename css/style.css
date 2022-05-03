@@ -626,6 +626,14 @@ footer{
   text-align: justify;
 }
 
+.calendar {
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
 .header_calendar {
   display: flex;
   align-items: center;
@@ -760,16 +768,24 @@ aside > div{
   padding: 25px;
 }
 .card {
-  height: 700px;
   transition: all 0.2s ease;
   cursor: pointer
 }
-.card-img-top {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  }
+.card-title h2{
+  font-size: medium;
+}
+.card-title h3{
+  font-size: small;
+  color: #222;
+}
 
+.card-text p{
+  text-align: justify;
+  font-size: small;
+}
+.card img {
+  height: 280px;
+}
 .card:hover {
   box-shadow: 5px 6px 6px 2px #7c7b7a;
   transform: scale(1.1)

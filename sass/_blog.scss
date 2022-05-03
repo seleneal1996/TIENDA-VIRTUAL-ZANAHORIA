@@ -1,0 +1,42 @@
+//linea 764
+
+.logo_header{
+    height: 3rem;
+    width: 3rem;
+}
+
+.leading {
+    height: 240px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: url('/assets/images/img1.png') center no-repeat;
+    background-size: cover;
+}
+
+#blog .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+    .card {
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        img {
+            height: 280px;
+        }
+
+        h2{
+            font-size: medium;
+        }
+        h3{
+            font-size: small;
+            color: #222;
+        }
+        p{
+            text-align: justify;
+        }
+        &:hover {
+            box-shadow: 5px 6px 6px 2px #7c7b7a;
+            transform: scale(1.1)
+        }
+    }
+}
