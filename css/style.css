@@ -794,6 +794,11 @@ aside > div{
 
 
 /*PRODUCTOS*/
+.container h3{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
 .product-grid4,
 .product-grid4 .product-image4{
   position:relative;
