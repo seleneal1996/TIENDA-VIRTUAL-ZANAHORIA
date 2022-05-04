@@ -68,12 +68,14 @@
 // equipo de trabajo 
 
 .wrapper{
-    margin-bottom: 100px;
+    /* Vertical | Horizontal */
+    margin: 5% auto;
+    background-color: $verde_1;
     h1{
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
-        color: #eaeaea;
+        color: $gris_claro;
     }
     .team{
         display: flex;

@@ -1,3 +1,19 @@
+//VARIABLES PALETA DE COLORES
+$gris_claro:#F2F2F2;
+$azul_romance:#CEF2D3;
+$verde_1:#84D991;
+$verde_2:#36bf4a;
+$verde_3:#2DA63F;
+$verde_header:#2CB249;
+
+//VARIABLE BOTON-EMPEZAR
+$llama:#f59622;
+$borde:#d67a0a;
+//degradado
+$ligero:#ff9908;
+$original:#ff9908;
+$oscuro:#ff8c00;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +21,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
+
 
 @import "index.scss";
 @import "historia.scss";
@@ -16,3 +33,14 @@
 @import "productos-camas.scss";
 @import "productos-comida.scss";
 
+$breakpoints: (
+  sm:540px,
+  md:768px,
+  lg:1024px
+);
+
+@mixin media-up($breakpoint){
+  @media screen and (min-width:map-get($breakpoints,$breakpoint)){
+    @content;
+  }
+}

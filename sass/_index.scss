@@ -1,5 +1,5 @@
 header {
-    background-color: #2CB249;
+    background-color: $verde_header;
   }
   
   .logo_header {
@@ -32,7 +32,7 @@ header {
   
   .contenido-banner {
     position: relative;
-    color: #fff;
+    color: $gris_claro;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -55,15 +55,16 @@ header {
   
   .boton-empezar {
     text-decoration: none;
-    color: #fff;
-    background-color: #f59622;
-    border: 2px solid gray;
+    color: $gris_claro;
+    background-color:$llama;
+    border: 2px solid $borde;
     padding: 20px 40px;
     align-self: baseline;
     transition: all 0.4s;
   
     &:hover {
-      background: rgb(230, 159, 79);
+      background: rgb(29, 110, 83);
+      color: $gris_claro;
     }
   }
   
@@ -74,6 +75,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
+    background-color: $gris_claro;
   
     img {
       border-radius: 100px;
@@ -89,7 +91,7 @@ header {
       }
   
       p {
-        color: green;
+        color: $verde_2;
         font-size: 18px;
       }
     }
@@ -98,7 +100,7 @@ header {
   .boton-saber-mas {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: $gris_claro;
     background-color: #f59622;
     padding: 10px 30px;
     border: 2px solid gray;
@@ -179,37 +181,37 @@ header {
 
 #newsletter {
     padding: 100px 0px;
-  
+    background-color: $ligero;
     h4 {
       text-align: center;
       font-size: 25px;
       margin-bottom: 20px;
       text-transform: uppercase;
-      color: white;
+      color: $gris_claro;
     }
   }
   
   #contacto2 {
-    background-color: #8dca8d;
+    background-color: $verde_2;
   
     h4 {
       font-size: 25px;
       margin-bottom: 20px;
       text-transform: uppercase;
-      color: white;
+      color: $gris_claro;
     }
   }
   
   #contacto {
     padding: 100px 0px;
-    background-color: #84D991;
+    background-color: $verde_2;
   
     h4 {
       text-align: center;
       font-size: 25px;
       margin-bottom: 20px;
       text-transform: uppercase;
-      color: white;
+      color: $gris_claro;
     }
   
     form {
@@ -220,7 +222,7 @@ header {
   
   .datos-form {
     display: flex;
-    color: white;
+    color: $gris_claro;
     font-size: 15px;
   
     div {
@@ -237,7 +239,7 @@ header {
     }
   
     input, textarea {
-      background: white;
+      background: $gris_claro;
       border-radius: 10px;
       border: 2px solid #8dca8d;
       padding: 10px 5px;
@@ -252,7 +254,7 @@ header {
     }
   
     input::placeholder, textarea::placeholder {
-      color: #fff;
+      color: $gris_claro;
     }
   }
   
@@ -260,12 +262,12 @@ header {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    color: white;
+    color: $gris_claro;
   }
   
   .boton-formulario {
     display: block;
-    color: white;
+    color: $gris_claro;
     text-align: center;
     transition: 0.4s;
   

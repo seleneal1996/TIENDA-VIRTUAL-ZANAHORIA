@@ -19,6 +19,8 @@
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
+    background-color: $azul_romance;
+    border-radius: 5px;
   
     > div {
       padding: 20px;
@@ -49,7 +51,7 @@
   }
   
   .calendar {
-    background-color: white;
+    background-color:$verde_3;
     border-radius: 30px;
     padding: 20px;
     position: relative;
@@ -61,8 +63,7 @@
     align-items: center;
     font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
     justify-content: center;
-    margin-bottom: 2em;
-    color: #008000;
+    color: $gris_claro;
     min-height: 10vh;
     text-align: center;
   }
@@ -90,13 +91,13 @@
   
     li {
       height: 4vw;
-      color: #2CB249;
+      color: $gris_claro;
     }
   }
   
   ol.day-grid li {
-    background-color: #eaeaea;
-    border: 1px solid #eaeaea;
+    background-color: $gris_claro;
+    border: 1px solid $gris_claro;
     height: 12vw;
     max-height: 125px;
   
@@ -117,7 +118,7 @@
   
   ol.day-grid li {
     &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(34), &:nth-child(35) {
-      background-color: #fff;
+      background-color: $llama;
     }
   }
   
@@ -127,7 +128,7 @@
     grid-template-rows: repeat(4, 1fr);
   
     > div {
-      background-color: #eaeaea;
+      background-color: $gris_claro;
       padding: 20px;
       border-radius: 10px;
     }

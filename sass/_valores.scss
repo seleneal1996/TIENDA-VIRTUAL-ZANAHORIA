@@ -17,6 +17,7 @@
     margin: 4rem auto;
     h1{
         text-align: center;
+        text-transform: uppercase;
     }
     p{
         text-align: justify;
@@ -28,13 +29,13 @@
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,auto);
         div, .valores_Container .valores_dataContainer{
-            background-color: #f7b96d;
+            background-color: $azul_romance;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
             h1{
-                color: #008000;
-                text-transform: uppercase;
+                color: $verde_1;
+                text-transform: capitalize;
             }
         }
     }

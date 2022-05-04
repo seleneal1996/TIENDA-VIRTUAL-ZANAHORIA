@@ -31,7 +31,7 @@ header {
 
 .contenido-banner {
   position: relative;
-  color: #fff;
+  color: #F2F2F2;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -47,21 +47,23 @@ header {
 
 .boton-empezar {
   text-decoration: none;
-  color: #fff;
+  color: #F2F2F2;
   background-color: #f59622;
-  border: 2px solid gray;
+  border: 2px solid #d67a0a;
   padding: 20px 40px;
   align-self: baseline;
   transition: all 0.4s; }
   .boton-empezar:hover {
-    background: #e69f4f; }
+    background: #1d6e53;
+    color: #F2F2F2; }
 
 /*PERSONAL*/
 #personal {
   padding: 50px 50px;
   display: flex;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  background-color: #F2F2F2; }
   #personal img {
     border-radius: 100px; }
   #personal div {
@@ -71,13 +73,13 @@ header {
       font-size: 20px;
       margin: 15px 0px; }
     #personal div p {
-      color: green;
+      color: #36bf4a;
       font-size: 18px; }
 
 .boton-saber-mas {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: #F2F2F2;
   background-color: #f59622;
   padding: 10px 30px;
   border: 2px solid gray;
@@ -135,38 +137,39 @@ header {
 
 /*FORMULARIO*/
 #newsletter {
-  padding: 100px 0px; }
+  padding: 100px 0px;
+  background-color: #ff9908; }
   #newsletter h4 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: white; }
+    color: #F2F2F2; }
 
 #contacto2 {
-  background-color: #8dca8d; }
+  background-color: #36bf4a; }
   #contacto2 h4 {
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: white; }
+    color: #F2F2F2; }
 
 #contacto {
   padding: 100px 0px;
-  background-color: #84D991; }
+  background-color: #36bf4a; }
   #contacto h4 {
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    color: white; }
+    color: #F2F2F2; }
   #contacto form {
     max-width: 80%;
     margin: 0 auto; }
 
 .datos-form {
   display: flex;
-  color: white;
+  color: #F2F2F2;
   font-size: 15px; }
   .datos-form div {
     padding: 30px;
@@ -178,7 +181,7 @@ form label {
   text-transform: uppercase; }
 
 form input, form textarea {
-  background: white;
+  background: #F2F2F2;
   border-radius: 10px;
   border: 2px solid #8dca8d;
   padding: 10px 5px;
@@ -191,17 +194,17 @@ form input:focus, form textarea:focus {
   box-shadow: 0 0 0 1px #36BF4A; }
 
 form input::placeholder, form textarea::placeholder {
-  color: #fff; }
+  color: #F2F2F2; }
 
 .mensaje {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  color: white; }
+  color: #F2F2F2; }
 
 .boton-formulario {
   display: block;
-  color: white;
+  color: #F2F2F2;
   text-align: center;
   transition: 0.4s; }
   .boton-formulario .boton-saber-mas:hover {
@@ -221,7 +224,8 @@ form input::placeholder, form textarea::placeholder {
 .historia__sectionContainer {
   width: 90%;
   margin: 4rem auto;
-  align-items: center; }
+  align-items: center;
+  background-color: #F2F2F2; }
   .historia__sectionContainer .historia__dataContainer {
     padding: 2rem; }
     .historia__sectionContainer .historia__dataContainer h1 {
@@ -290,12 +294,14 @@ form input::placeholder, form textarea::placeholder {
       text-align: justify; }
 
 .wrapper {
-  margin-bottom: 100px; }
+  /* Vertical | Horizontal */
+  margin: 5% auto;
+  background-color: #84D991; }
   .wrapper h1 {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    color: #eaeaea; }
+    color: #F2F2F2; }
   .wrapper .team {
     display: flex;
     justify-content: center;
@@ -360,7 +366,8 @@ form input::placeholder, form textarea::placeholder {
   width: 90%;
   margin: 4rem auto; }
   .valores_sectionContainer h1 {
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   .valores_sectionContainer p {
     text-align: justify; }
   .valores_sectionContainer .valores_Container {
@@ -370,13 +377,13 @@ form input::placeholder, form textarea::placeholder {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto); }
     .valores_sectionContainer .valores_Container div, .valores_sectionContainer .valores_Container .valores_Container .valores_dataContainer {
-      background-color: #f7b96d;
+      background-color: #CEF2D3;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); }
       .valores_sectionContainer .valores_Container div h1, .valores_sectionContainer .valores_Container .valores_Container .valores_dataContainer h1 {
-        color: #008000;
-        text-transform: uppercase; }
+        color: #84D991;
+        text-transform: capitalize; }
   @media (max-width: 768px) {
     .valores_sectionContainer .valores_Container .valores_dataContainer {
       grid-column: 1/-1; } }
@@ -398,7 +405,9 @@ form input::placeholder, form textarea::placeholder {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto); }
+  grid-template-rows: repeat(3, auto);
+  background-color: #CEF2D3;
+  border-radius: 5px; }
   .calendar__sectionContainer > div {
     padding: 20px;
     border-radius: 4px; }
@@ -420,7 +429,7 @@ aside {
     text-align: justify; }
 
 .calendar {
-  background-color: white;
+  background-color: #2DA63F;
   border-radius: 30px;
   padding: 20px;
   position: relative;
@@ -431,8 +440,7 @@ aside {
   align-items: center;
   font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
   justify-content: center;
-  margin-bottom: 2em;
-  color: #008000;
+  color: #F2F2F2;
   min-height: 10vh;
   text-align: center; }
 
@@ -456,11 +464,11 @@ ul.weekdays {
   margin-bottom: 1em; }
   ul.weekdays li {
     height: 4vw;
-    color: #2CB249; }
+    color: #F2F2F2; }
 
 ol.day-grid li {
-  background-color: #eaeaea;
-  border: 1px solid #eaeaea;
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
   height: 12vw;
   max-height: 125px; }
   ol.day-grid li img {
@@ -475,14 +483,14 @@ ul.weekdays abbr[title] {
   text-decoration: none; }
 
 ol.day-grid li:nth-child(1), ol.day-grid li:nth-child(2), ol.day-grid li:nth-child(3), ol.day-grid li:nth-child(34), ol.day-grid li:nth-child(35) {
-  background-color: #fff; }
+  background-color: #f59622; }
 
 aside {
   display: grid;
   grid-gap: 40px;
   grid-template-rows: repeat(4, 1fr); }
   aside > div {
-    background-color: #eaeaea;
+    background-color: #F2F2F2;
     padding: 20px;
     border-radius: 10px; }
 
