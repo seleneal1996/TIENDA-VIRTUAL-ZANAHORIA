@@ -14,6 +14,12 @@ $ligero:#ff9908;
 $original:#ff9908;
 $oscuro:#ff8c00;
 
+$breakpoints: (
+  sm:540px,
+  md:768px,
+  lg:1024px
+);
+
 *{
     margin: 0;
     padding: 0;
@@ -21,8 +27,7 @@ $oscuro:#ff8c00;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
-
-
+  
 @import "index.scss";
 @import "historia.scss";
 @import "mision.scss";
@@ -33,11 +38,7 @@ $oscuro:#ff8c00;
 @import "productos-camas.scss";
 @import "productos-comida.scss";
 
-$breakpoints: (
-  sm:540px,
-  md:768px,
-  lg:1024px
-);
+
 
 @mixin media-up($breakpoint){
   @media screen and (min-width:map-get($breakpoints,$breakpoint)){

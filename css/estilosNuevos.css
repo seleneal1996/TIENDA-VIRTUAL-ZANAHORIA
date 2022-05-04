@@ -218,7 +218,7 @@ form input::placeholder, form textarea::placeholder {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url("/assets/images/img1.png") center no-repeat;
+  background: url("../assets/images/img1.png") center no-repeat;
   background-size: cover; }
 
 .historia__sectionContainer {
@@ -347,9 +347,10 @@ form input::placeholder, form textarea::placeholder {
         color: #333; }
       .wrapper .team .team_member p {
         text-align: justify; }
-    @media (max-width: 768px) {
-      .wrapper .team .mision__dataContainer {
-        grid-column: 1/-1; } }
+
+@media (max-width: 768px) {
+  .mision__dataContainer {
+    grid-column: 1/-1; } }
 
 .logo_header {
   height: 3rem;
@@ -359,7 +360,7 @@ form input::placeholder, form textarea::placeholder {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url("/assets/images/img1.png") center no-repeat;
+  background: url("../assets/images/img1.png") center no-repeat;
   background-size: cover; }
 
 .valores_sectionContainer {
@@ -396,7 +397,7 @@ form input::placeholder, form textarea::placeholder {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url("/assets/images/img1.png") center no-repeat;
+  background: url("../assets/images/img1.png") center no-repeat;
   background-size: cover; }
 
 .calendar__sectionContainer {
@@ -525,7 +526,7 @@ aside {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url("/assets/images/img1.png") center no-repeat;
+  background: url("../assets/images/img1.png") center no-repeat;
   background-size: cover; }
 
 #galeria .col-lg-4 {
@@ -546,7 +547,7 @@ aside {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url("/assets/images/img1.png") center no-repeat;
+  background: url("../assets/images/img1.png") center no-repeat;
   background-size: cover; }
 
 #blog .col-lg-4 {
@@ -576,7 +577,7 @@ aside {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url("/assets/images/img1.png") center no-repeat;
+  background: url("../assets/images/img1.png") center no-repeat;
   background-size: cover; }
 
 .container h3 {

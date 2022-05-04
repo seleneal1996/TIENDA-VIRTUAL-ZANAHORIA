@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss sass/estilosSass.scss css/estilosNuevos.css",
+    "build-css": "node-sass --include-path scss sass/estilosSass.scss css/estilosNuevos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
@@ -20,6 +20,6 @@
   "homepage": "https://github.com/seleneal1996/TIENDA-VIRTUAL-ZANAHORIA#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
