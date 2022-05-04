@@ -14,11 +14,87 @@ $ligero:#ff9908;
 $original:#ff9908;
 $oscuro:#ff8c00;
 
-$breakpoints: (
-  sm:540px,
-  md:768px,
-  lg:1024px
-);
+// Breakpoints
+
+//************************************************
+// telefono (ancho)
+//************************************************
+$telefono-min-width: 320px !default;
+$telefono-max-width: 504px !default;
+//************************************************
+// telefono(altura)
+//************************************************
+$telefono-min-height: 346px !default;
+$telefono-max-height: 695px !default;
+
+//************************************************
+//tablet (ancho)
+//************************************************
+$tablet-min-width: 480px !default;
+$tablet-max-width: 1024px !default;
+//************************************************
+//tablet (altura)
+//************************************************
+$tablet-min-height: 800px !default;
+$tablet-max-height: 1440px !default;
+
+//************************************************
+//desktop
+//************************************************
+$desktop-min-height: 768px !default;
+$desktop-max-height: 1280px !default;
+
+//***********************************************
+// Mixins
+//***********************************************
+//Orientacion vertical y horizontal para telefono
+@mixin telefono(){
+  @media screen and (min-width: $telefono-min-width) and (max-height: $telefono-max-height){
+    @content;
+  }
+}
+
+// para el teléfono en orientacion vertical
+@mixin portrait-telefono() {
+  @media screen and (min-width: $telefono-min-width) and (max-width: $telefono-max-width) and (orientation: portrait) {
+    @content;
+  }
+}
+
+// para el teléfono en orientacion vertical
+@mixin landscape-telefono(){
+  @media screen and (min-height: $telefono-min-height) and (max-height: $telefono-max-height) and (orientation: landscape){
+    @content;
+  }
+}
+
+// Para la tablet en orientacion vertical y horizontal
+@mixin tablet(){
+  @media screen and (min-width: $tablet-min-width) and (max-height: $tablet-max-height){
+    @content;
+  }
+}
+
+// Para orientacion vertical en la tablet
+@mixin portrait-tablet() {
+  @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) and (orientation: portrait) {
+    @content;
+  }
+}
+
+// Para la posicion horizontal en la tablet
+@mixin landscape-tablet(){
+  @media screen and (min-height: $tablet-min-height) and (max-height: $tablet-max-height) and (orientation: landscape){
+    @content;
+  }
+}
+
+// Para desktop
+@mixin desktop(){
+  @media screen and (min-height: $desktop-min-height) and (max-height: $desktop-max-height){
+    @content;
+  }
+}
 
 *{
     margin: 0;
@@ -40,8 +116,3 @@ $breakpoints: (
 
 
 
-@mixin media-up($breakpoint){
-  @media screen and (min-width:map-get($breakpoints,$breakpoint)){
-    @content;
-  }
-}
