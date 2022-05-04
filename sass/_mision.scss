@@ -125,10 +125,12 @@
             p{
                 text-align: justify;
             }
-        } 
+        }
+        @media (max-width: 768px) {
+            .mision__dataContainer {
+              grid-column: 1/-1;
+            }
+          } 
     }
 }
-
-
-
 

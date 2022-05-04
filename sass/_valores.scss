@@ -38,4 +38,11 @@
             }
         }
     }
+    @media(max-width:768px){
+        .valores_Container .valores_dataContainer{
+          grid-column: 1/-1;
+      
+        }
+      }
 }
+

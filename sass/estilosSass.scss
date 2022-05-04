@@ -4,10 +4,8 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
-    background-color: #f7b96d
 }
 
-// COMENTARIO SASS -falta personalizar footer
 @import "index.scss";
 @import "historia.scss";
 @import "mision.scss";
@@ -17,5 +15,4 @@
 @import "blog.scss";
 @import "productos-camas.scss";
 @import "productos-comida.scss";
-
 
