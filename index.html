@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Tienda Selene Barrios</title>
+    <title>Home</title>
+    <meta name="description" content="ZANAHORIA es una empresa comprometida con nuestros amigos conejos, con el fin de brindarles el mejor servicio y ofrecerles los productos de la más alta calidad, contribuyendo con el bienestar integral del conejo mascota"/>
+    <meta name="keywords" content="Refugios, Conejos, Perú"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="expires" content="43200"/>
     <!-- Font awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!--Icono de la web-->
@@ -13,115 +17,136 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilosNuevos.css">    
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark indigo">
             <div class="container-fluid">
-              <a class="logo_header" href="./index.html">
-                  <img src="data:image/png;base64,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" alt="logo-empresa"/>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >NOSOTROS</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./pages/historia.html">Nuestra Historia</a></li>
-                            <li><a class="dropdown-item" href="./pages/mision_vision.html">Misión y Visión </a></li>
-                            <li><a class="dropdown-item" href="./pages/valores.html">Nuestros Valores</a></li>
-                        </ul>
-                    </li>
+                <a class="logo_header" href="./index.html">
+                    <img src="assets/images/logo.png" alt="log-empresa">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >NOSOTROS</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/historia.html">Nuestra Historia</a></li>
+                                <li><a class="dropdown-item" href="./pages/mision_vision.html">Misión y Visión </a></li>
+                                <li><a class="dropdown-item" href="./pages/valores.html">Nuestros Valores</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >EVENTOS</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./pages/calendar.html">Calendario</a></li>
-                            <li><a class="dropdown-item" href="./pages/galeria.html">Fotos</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >EVENTOS</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/calendar.html">Calendario</a></li>
+                                <li><a class="dropdown-item" href="./pages/galeria.html">Fotos</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >PRODUCTOS</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./pages/productos-camas.html">Camas</a></li>
-                            <li><a class="dropdown-item" href="./pages/productos-comida.html">Comida </a></li>
-                            <li><a class="dropdown-item" href="#">Comederos y bebederos</a></li>
-                        </ul>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >PRODUCTOS</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/productos-camas.html">Camas</a></li>
+                                <li><a class="dropdown-item" href="./pages/productos-comida.html">Comida </a></li>
+                                <li><a class="dropdown-item" href="#">Comederos y bebederos</a></li>
+                            </ul>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="../pages/blog.html">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
-                    </li>
-                </ul>
-
-              </div>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="../pages/blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
-
+    
     <main>
         <section id="banner">
             <div class="contenido-banner">
-                <h3><span>ZANAHORIA </span> <br> Refugios y Criaderos</h3>
+                <h1><span>ZANAHORIA </span> <br> Refugios y Criaderos</h1>
                 <a href="#" class="boton-empezar">Reservar</a>
             </div>
         </section>
-    
-    
-        <section id="personal">
-            <div>
-                <img src="./assets/images/usuario1.jpeg" alt="foto-veterinario">
-                <h4>Patricia</h4>
-                <p class="lead">Mi nombre es Patricia y desde que tengo uso de razón tengo un inmenso amor por los conejos.</p>
-                <a href="#" class="boton-saber-mas">Saber mas</a>
-            </div>
-    
-            <div>
-                <img src="./assets/images/usuario1.jpeg" alt="foto-veterinario">
-                <h4>Melissa</h4>
-                <p class="lead">Soy estudiante de veterinaria y me encanta apoyar a esta gran empresa.</p>
-                <a href="#" class="boton-saber-mas">Saber mas</a>
-            </div>
-    
-            <div>
-                <img src="./assets/images/usuario1.jpeg" alt="foto-veterinario">
-                <h4>Diana</h4>
-                <p class="lead">Dispongo mis servicios como paseador de su pequeño amigo durante cualquier horario de la semana y fines de semana.</p>
-                <a href="#" class="boton-saber-mas">Saber mas</a>
-            </div>
-        </section>
-    
-        <section id="servicios">
-            <div class="contenido-servicios">
+
+        <div class="container-banner">
+            <h2>Equipo Zanahoria</h2>
+            <section id="personal">
                 <div>
-                    <i class="fa-solid fa-truck-fast fa-3x"></i>
-                    <h6>Entregas a domicilio</h6>
-                    <p class="lead">Contamos con el servicio de delivery para entregas a domicilio de comida y otras mercancías.</p>
+                    <img src="./assets/images/usuario1.jpeg" alt="foto-veterinario">
+                    <h3>Patricia Caballero</h3>
+                    <p class="lead">Mi nombre es Patricia y desde que tengo uso de razón tengo un inmenso amor por los conejos.</p>
+                    <a href="#" class="boton-saber-mas">Saber mas</a>
                 </div>
-    
-                <div> 
-                    <i class="fa-solid fa-box fa-3x"></i>
-                    <h6>Variedad de productos</h6>
-                    <p class="lead">Ya que no todos los clientes son iguales ni buscan lo mismo.</p>
+        
+                <div>
+                    <img src="./assets/images/usuario2.jpg" alt="foto-veterinario">
+                    <h3>Genoveva Ramirez</h3>
+                    <p class="lead">Soy estudiante de veterinaria y me encanta apoyar a esta gran empresa.</p>
+                    <a href="#" class="boton-saber-mas">Saber mas</a>
                 </div>
-    
-                <div id="icon-servicio">
-                    <i class="fa-regular fa-credit-card fa-3x"></i>
-                    <h6>Aceptamos todas las tarjetas</h6>
-                    <p class="lead">¿Sin efectivo? Tranquilo aceptamos todas las tarjetas de débito y crédito. Nada puede evitar que engrias a tu conejito. </p>
+        
+                <div>
+                    <img src="./assets/images/usuario3.jpg" alt="foto-veterinario">
+                    <h3>Julianne Galdos</h3>
+                    <p class="lead">Dispongo mis servicios como paseador de su pequeño amigo durante cualquier horario de la semana y fines de semana.</p>
+                    <a href="#" class="boton-saber-mas">Saber mas</a>
                 </div>
-            </div>
-            <div class="boton-servicios">
-                <a href="#" class="boton-saber-mas">Saber mas</a>
-            </div>
-        </section>
+            </section>
+        </div>
+
+        <div id="servicios">
+            <section class="container-banner pt-4">
+                <h3>Zanahoria te ofrece </h3>
+                <div class="row pt-5 mt-30">
+
+                    <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+                        <a class="card" href="#">
+                            <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;">
+                                <i class="fa-solid fa-truck-fast fa-3x head-icon"></i>
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title pt-1">Entregas a domicilio</h4>
+                                <p class="card-text text-sm">Contamos con el servicio de delivery para entregas a domicilio de comida y otras mercancías.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+                        <a class="card" href="#">
+                            <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;">
+                                <i class="fa-solid fa-box fa-3x head-icon"></i>
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title pt-1">Variedad de productos</h4>
+                                <p class="card-text text-sm">Todos nuestros conejitos son diferentes y los clientes no son iguales, no buscan lo mismo. </p>     
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+                        <a class="card" href="#">
+                            <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;">
+                                <i class="fa-regular fa-credit-card fa-3x head-icon"></i>
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title pt-1">Aceptamos todas las tarjetas</h4>
+                                <p class="card-text text-sm">¿Sin efectivo? Tranquilo aceptamos todas las tarjetas de débito y crédito. Nada puede evitar que engrias a tu conejito.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        
     
         <section id="contacto">
             <h4>Contacta con nosotros</h4>
@@ -137,66 +162,35 @@
                         <input type="email" name="email" id="email">
                     </div>
                 </div>
+
                 <div class="mensaje">
                     <label for="mensaje">Mensaje</label>
                     <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                 </div>
+
                 <div class="boton-formulario">
                     <a href="#" class="boton-saber-mas">Enviar mensaje</a>
                 </div>
-                
             </form>
         </section>    
     </main>
-
-
+    
     <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
         <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-      
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
+            <section class="mb-4">
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
         </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 Copyright:
-          <a class="text-white" href="#">Zanahoria-Refugios y Criaderos</a>
-        </div>
-        <!-- Copyright -->
+        
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2022 Copyright:<a class="text-white" href="#">Zanahoria-Refugios y Criaderos</a></div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
+

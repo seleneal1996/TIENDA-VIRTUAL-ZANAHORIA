@@ -1,7 +1,10 @@
-.container h3 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
+.container h1 ,h2{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $verde_2;
   }
   
   .product-grid4 {

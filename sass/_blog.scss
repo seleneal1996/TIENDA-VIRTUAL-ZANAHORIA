@@ -24,12 +24,18 @@
             height: 280px;
         }
 
-        h2{
-            font-size: medium;
+        h1{
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $verde_2;
         }
-        h3{
-            font-size: small;
-            color: #222;
+        h2,h3{
+            text-align: center;
+            font-size: medium;
+            color: $verde_2;
         }
         p{
             text-align: justify;

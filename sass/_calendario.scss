@@ -40,9 +40,11 @@
   
     h1 {
       text-align: center;
-      text-transform: uppercase;
       font-size: 1.5rem;
       margin-bottom: 1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $verde_2;
     }
   
     p {
@@ -56,6 +58,13 @@
     padding: 20px;
     position: relative;
     overflow: hidden;
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color: $gris_claro;
+    }
   }
   
   .header_calendar {
@@ -134,10 +143,12 @@
     }
   }
   
-  .descripcion-evento h1, h2 {
+  .descripcion-evento h4, h5 {
     padding: 5px;
     text-align: center;
-    color: #2CB249;
+    color: $verde_2;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
   
   .descripcion-evento p {

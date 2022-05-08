@@ -12,7 +12,14 @@
     background: url('../assets/images/img1.png') center no-repeat;
     background-size: cover;
 }
-
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $verde_2;
+  }
 #galeria .col-lg-4{
     margin: 0 !important;
     padding: 25px;

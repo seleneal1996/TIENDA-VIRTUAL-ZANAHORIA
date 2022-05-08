@@ -12,15 +12,17 @@
     width: 90%;
     margin: 4rem auto;
     align-items: center;
-    background-color: $gris_claro;
+    background-color: $azul_romance;
+    border-radius: 5px;
     .historia__dataContainer{
         padding: 2rem;
-        h1 {
+        h1 ,h2{
             text-align: center;
             font-size: 1.5rem;
             margin-bottom: 1rem;
             text-transform: uppercase;
             font-weight: bold;
+            color: $verde_2;
         }
         p {
             text-align: justify;

@@ -12,10 +12,12 @@
     background-size: cover;
 }
 
-.container h3 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
+.container h1 {
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: center;
+  color: $verde_2;
   }
   
   .product-grid4 {
@@ -267,6 +269,7 @@
     line-height: 33px;
     padding: 0 13px;
     vertical-align: top;
+    background-color: $azul_romance;
   }
   
   .graph-star-rating-header .star-rating {
@@ -274,7 +277,7 @@
   }
   
   .progress {
-    background: #f2f4f8 none repeat scroll 0 0;
+    background: $gris_claro none repeat scroll 0 0;
     border-radius: 0;
     height: 30px;
   }
@@ -304,8 +307,8 @@
   .offer-dedicated-nav {
     .nav-link {
       &.active, &:hover, &:focus {
-        border-color: #3868fb;
-        color: #3868fb;
+        border-color: $verde_1;
+        color:$verde_1;
       }
   
       border-bottom: 2px solid #fff;
@@ -320,7 +323,7 @@
   }
   
   .text-black {
-    color: #000000;
+    color: $verde_2;
   }
   
   .icon-overlap {

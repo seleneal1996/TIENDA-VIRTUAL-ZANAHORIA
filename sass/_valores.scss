@@ -15,9 +15,11 @@
 .valores_sectionContainer{
     width: 90%;
     margin: 4rem auto;
-    h1{
+    h1,h2{
         text-align: center;
         text-transform: uppercase;
+        font-weight: bold;
+        color: $verde_2;
     }
     p{
         text-align: justify;
@@ -33,9 +35,10 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-            h1{
-                color: $verde_1;
+            h4{
+                color: $llama;
                 text-transform: capitalize;
+                text-align: center;
             }
         }
     }

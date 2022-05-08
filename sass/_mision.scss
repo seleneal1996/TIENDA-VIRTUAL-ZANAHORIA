@@ -17,7 +17,7 @@
   margin: 4rem auto;
   align-items: center;
   .mision__dataContainer2{
-      background:#78bfd3;
+      background:$azul_romance;
       margin: 10px;
       box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
       padding: 50px;  
@@ -29,7 +29,7 @@
           margin-bottom: 1rem;
           text-transform: uppercase;
           font-weight: bold;
-          color: #eaeaea;
+          color: $verde_2;
         }
         p {
           text-align: justify;
@@ -45,19 +45,19 @@ display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(5,auto);
 .mision__dataContainer{
-  background:#78bfd3;
+  background:$azul_romance;
   margin: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
   padding: 50px;  
   position: relative;
   border-radius: 15px;
-  h1 {
+  h2 {
       text-align: center;
       font-size: 1.5rem;
       margin-bottom: 1rem;
       text-transform: uppercase;
       font-weight: bold;
-      color: #eaeaea;
+      color: $verde_2;
     }
     p {
       text-align: justify;
@@ -66,17 +66,14 @@ grid-template-rows: repeat(5,auto);
 }
 
 // equipo de trabajo 
-
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $verde_header;
+}
 .wrapper{
-  /* Vertical | Horizontal */
-  margin: 5% auto;
   background-color: $verde_1;
-  h1{
-      text-align: center;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: $gris_claro;
-  }
   .team{
       display: flex;
       justify-content: center;
@@ -84,14 +81,14 @@ grid-template-rows: repeat(5,auto);
       text-align: center;
       flex-wrap: wrap;
       .team_member{
-          background: #ffc168;
+          background:$azul_romance;
           margin: 50px;
           margin-bottom: 50px;
           width: 500px;
           padding: 50px;  
           position: relative;
           border-radius: 25px;
-          background-color: #FDFD96;
+          background-color: $azul_romance;
           box-shadow: 10px 5px 5px grey;
           .team_img{
               position: absolute;
@@ -112,17 +109,17 @@ grid-template-rows: repeat(5,auto);
                   background-size: 100% auto;
               }
           }
-          h3{
-              margin: 50px;
-              color: green;
-              font-size: 26px;
-              margin-top: 50px;
+          h4,h5{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $verde_2;
           }
           .team_role{
               margin: 15px;
               margin-top: 15px;
               text-transform: uppercase;
-              color: #333;
+              color: $llama;
           }
           p{
               text-align: justify;
