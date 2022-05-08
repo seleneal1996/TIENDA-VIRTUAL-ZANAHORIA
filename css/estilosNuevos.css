@@ -468,13 +468,10 @@ p, .p {
 
 .mision__sectionContainer2 {
   width: 90%;
-  margin: 4rem auto;
+  margin: 2rem auto;
   align-items: center; }
   .mision__sectionContainer2 .mision__dataContainer2 {
-    background: #CEF2D3;
     margin: 10px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
-    padding: 50px;
     position: relative;
     border-radius: 25px; }
     .mision__sectionContainer2 .mision__dataContainer2 h1 {
