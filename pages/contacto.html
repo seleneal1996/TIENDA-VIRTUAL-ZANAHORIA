@@ -74,46 +74,51 @@
     
     <main>
         <section class="leading"></section>
-        <section class="col-md p-3 text-center" id="contacto2">
-            <h4>¿Necesitas comunicarte con nosotros?</h4>
-            <form action="#" >
-                <div class="datos-form">
-                    <div class="nombre">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre">
-                    </div>
-                    
-                    <div class="email">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                </div>
-                <div class="mensaje">
-                    <label for="mensaje">¿Cuál es tu duda?</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                </div>
-                <div class="boton-formulario">
-                    <a href="#" class="boton-saber-mas">Enviar mensaje</a>
-                </div>
-            </form>
-        </section> 
-
-        <section class="col-md p-3 text-center">
-            <div id="newsletter" class="form-group">
-                <h4>Suscríbete al Newsletter</h4>
-                <form action="#">
-                    <div class="datos-form">
-                        <div class="email">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-                    </div>
-                    <div class="boton-formulario">
-                        <a href="#" class="boton-saber-mas">Suscribirme</a>
-                    </div> 
-                </form>
+        <div class="container-banner">
+            <div class="container">
+                <h2>Visitanos pronto</h2>
+                <hr>
+                <p class="text-justify">Como parte de las medidas excepcionales de carácter transitorio ante la emergencia sanitaria por la <b>COVID19</b> . La normativa dispone continuar de manera obligatoria, con el uso de la doble mascarilla para circular por las vías de uso público, espacios cerrados o donde no se puede mantener el distanciamiento.</p>
             </div>
-        </section>  
+        </div>
+        <section id="contacto">
+            <h4>Contacta con nosotros</h4>
+            <div class="container-banner">
+                <section id="contact" class="gray-bg padding-top-bottom">
+                    <div class="container bootstrap snippets bootdey">
+                        <div class="row">
+                            <form id="Highlighted-form" class="col-sm-6 col-sm-offset-3" action="contact.php" method="post" novalidate="">
+                                <div class="form-group">
+                                  <label class="control-label" for="contact-name">Nombre</label>
+                                  <div class="controls">
+                                    <input id="contact-name" name="contactName" placeholder="Ingrese su nombre" class="form-control requiredField Highlighted-label" data-new-placeholder="Ingrese su nombre" type="text" data-error-empty="Porfavor ingrese su nombre!!">
+                                    <i class="fa fa-user"></i>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label" for="contact-mail">Email</label>
+                                  <div class=" controls">
+                                    <input id="contact-mail" name="email" placeholder="Ingrese su correo" class="form-control requiredField Highlighted-label" data-new-placeholder="Ingrese su email" type="email" data-error-empty="Porfavor ingrese un correo válido!!" data-error-invalid="Invalid email address">
+                                    <i class="fa fa-envelope"></i>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label class="control-label" for="contact-message">Message</label>
+                                    <div class="controls">
+                                        <textarea id="contact-message" name="comments" placeholder="Ingrese su mensaje" class="form-control requiredField Highlighted-label" data-new-placeholder="Ingrese su mensaje" rows="6" data-error-empty="Porfavor ingrese su mensaje!!"></textarea>
+                                        <i class="fa fa-comment"></i>
+                                    </div>
+                                </div>
+                                <div class="boton-formulario">
+                                    <a href="#" class="boton-saber-mas">Enviar mensaje</a>
+                                </div>
+                                <input type="hidden" name="submitted" id="submitted" value="true">	
+                            </form>
+                        </div>	
+                    </div>	
+                </section>
+            </div>                    
+        </section>
     </main>
        
     <footer class="bg-dark text-center text-white">
