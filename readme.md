@@ -36,3 +36,6 @@ Para asegurar la fluidez del funcionamiento de Internet, las webs se suelen guar
 ###Expires
 Es posible que no se quiera prohibir el almacenamiento temporal en caché de forma absoluta. En este caso se puede usar el atributo “http-equiv” para definir una fecha de expiración para los datos HTML solicitados.
 
+#Etiquetas “alt” en imágenes
+Asigne a las imágenenes las etiquetas alt para darle a los motores de búsqueda texto descriptivo del contenido visual. 
+
