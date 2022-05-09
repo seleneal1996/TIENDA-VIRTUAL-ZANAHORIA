@@ -104,7 +104,7 @@ $desktop-max-height: 1280px !default;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
-  
+@import "header.scss";
 @import "index.scss";
 @import "historia.scss";
 @import "mision.scss";
