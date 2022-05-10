@@ -1,0 +1,80 @@
+
+
+@mixin font-size($fs-map, $fs-breakpoints: $breakpoints) {
+    @each $fs-breakpoint, $fs-font-size in $fs-map {
+      @if $fs-breakpoint == null {
+        @include make-font-size($fs-font-size);
+      }
+      @else {
+        @if map-has-key($fs-breakpoints, $fs-breakpoint) {
+          $fs-breakpoint: map-get($fs-breakpoints, $fs-breakpoint);
+        }
+        @media screen and (min-width: $fs-breakpoint) {
+          @include make-font-size($fs-font-size);
+        }
+      }
+    }
+  }
+  
+  @mixin make-font-size($fs-font-size) {
+    @if type-of($fs-font-size) == "list" {
+      font-size: nth($fs-font-size, 1);
+      @if (length($fs-font-size) > 1) {
+        line-height: nth($fs-font-size, 2);
+      }
+    }
+    @else {
+      font-size: $fs-font-size;
+    }
+  }
+  
+  
+  
+//Orientacion vertical y horizontal para telefono
+@mixin telefono(){
+    @media screen and (min-width: $telefono-min-width) and (max-height: $telefono-max-height){
+      @content;
+    }
+  }
+  
+  // para el teléfono en orientacion vertical
+  @mixin portrait-telefono() {
+    @media screen and (min-width: $telefono-min-width) and (max-width: $telefono-max-width) and (orientation: portrait) {
+      @content;
+    }
+  }
+  
+  // para el teléfono en orientacion vertical
+  @mixin landscape-telefono(){
+    @media screen and (min-height: $telefono-min-height) and (max-height: $telefono-max-height) and (orientation: landscape){
+      @content;
+    }
+  }
+  
+  // Para la tablet en orientacion vertical y horizontal
+  @mixin tablet(){
+    @media screen and (min-width: $tablet-min-width) and (max-height: $tablet-max-height){
+      @content;
+    }
+  }
+  
+  // Para orientacion vertical en la tablet
+  @mixin portrait-tablet() {
+    @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) and (orientation: portrait) {
+      @content;
+    }
+  }
+  
+  // Para la posicion horizontal en la tablet
+  @mixin landscape-tablet(){
+    @media screen and (min-height: $tablet-min-height) and (max-height: $tablet-max-height) and (orientation: landscape){
+      @content;
+    }
+  }
+  
+  // Para desktop
+  @mixin desktop(){
+    @media screen and (min-height: $desktop-min-height) and (max-height: $desktop-max-height){
+      @content;
+    }
+  }

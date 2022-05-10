@@ -1,0 +1,38 @@
+// Layout
+.box {
+    padding: 10px;
+ }
+
+ .container {
+    margin: 0 auto;
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+ }
+
+@media (min-width: map-get($breakpoints, medium)) and (max-width: (map-get($breakpoints, large) - 1)) {
+    .content {
+        width: 61.8%;
+        float: left;
+    }
+    .sidebar {
+        width: 38.2%;
+        float: left;
+    }
+ }
+ @media (min-width: map-get($breakpoints, large)) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .content {
+        width: 61.8%;
+        float: left;
+    }
+    .sidebar {
+        width: 38.2%;
+        float: left;
+    }
+ }
