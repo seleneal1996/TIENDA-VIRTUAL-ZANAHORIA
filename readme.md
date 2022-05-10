@@ -11,10 +11,11 @@ Use estos elementos:
 ## TITULOS
 * Los títulos también se conocen como encabezados o etiquetas H. Nos ayudan a organizar y estructurar la información para mejorar la experiencia del usuario a la hora de leer nuestros contenidos. Los títulos aparecen de la siguiente manera:
 
-1. * <h1>Título con palabra clave</h1> *
-2. * <h2>Subtítulo con variación de palabra clave</h2> *
-3. * <h3>Subtítulo con sinónimo</h3>  *
-
+1. Título con palabra clave  -> h1
+3. Subtítulo con variación de palabra clave -> h2 
+4. <h3>Subtítulo con sinónimo -> h3 
+<img src="https://www.humanlevel.com/wp-content/uploads/2015-06-06_1337.png" alt="Cómo optimizar los H1 y resto de etiquetas de jerarquía Hn
+"/>
 * En las primeras versiones del proyecto fui descuidada y no me fije que no respete la jerarquia de los H -> Corregido ✅*
 * La identacion del codigo en las primeras versiones estaba horrible -> corregido*
 ## LISTAS
