@@ -51,5 +51,4 @@ Con esta etiqueta meta los administradores tienen la posibilidad de definir pala
 
 * Utilice BS 
 # RESULTADOS
-<img src="https://raw.githubusercontent.com/seleneal1996/TIENDA-VIRTUAL-ZANAHORIA/master/Captura%20de%20pantalla%20de%202022-05-09%2023-07-15.png
-" alt="RESULTADO FINAL"/>
+<img src="https://raw.githubusercontent.com/seleneal1996/TIENDA-VIRTUAL-ZANAHORIA/master/Captura%20de%20pantalla%20de%202022-05-09%2023-07-15.png" alt="RESULTADO FINAL"/>
