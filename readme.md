@@ -14,8 +14,6 @@ Use estos elementos:
 1. Título con palabra clave  -> h1
 3. Subtítulo con variación de palabra clave -> h2 
 4. Subtítulo con sinónimo -> h3 
-<img src="https://www.humanlevel.com/wp-content/uploads/2015-06-06_1337.png" alt="Cómo optimizar los H1 y resto de etiquetas de jerarquía Hn
-"/>
 * En las primeras versiones del proyecto fui descuidada y no me fije que no respete la jerarquia de los H -> Corregido ✅*
 * La identacion del codigo en las primeras versiones estaba horrible -> corregido*
 ## LISTAS
@@ -53,5 +51,5 @@ Con esta etiqueta meta los administradores tienen la posibilidad de definir pala
 
 * Utilice BS 
 # RESULTADOS
-
-
+<img src="https://raw.githubusercontent.com/seleneal1996/TIENDA-VIRTUAL-ZANAHORIA/master/Captura%20de%20pantalla%20de%202022-05-09%2023-07-15.png
+" alt="RESULTADO FINAL"/>
