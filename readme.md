@@ -4,7 +4,7 @@
 
 ## AQUI ESTA EL SERVIDOR 🚀
 
-* 🥕 [ZANAHORIA](https://sbarrioscornejo.000webhostapp.com/index.html) 🥕
+* 🥕 [ZANAHORIA](http://refugio-zanahoria.rf.gd/) 🥕
 
 # SEO 🥇 
 Use estos elementos: 
