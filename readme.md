@@ -1,6 +1,11 @@
 # RESULTADOS
 
-<img src="https://photos.google.com/share/AF1QipOiZMkhhPhE9U9gqVa0dJ9flzl7roaUNM4JRfeKLKioLxuGmVAwGcWtnKvHoTi9Eg/photo/AF1QipPXPUdg3RsZmzD8gZq_PhJwrB9rKm6PPNbp0RX0?key=emhTcERUWnBPQ0MycS1DU3hlS2pnY05aVmxKZnJn" alt="RESULTADO VISTA MOBILE"/>
+<img src="https://photos.app.goo.gl/DgcRTmrK4DvjvxcA8" alt="RESULTADO 1"/>
 
-<img src="https://photos.google.com/share/AF1QipOiZMkhhPhE9U9gqVa0dJ9flzl7roaUNM4JRfeKLKioLxuGmVAwGcWtnKvHoTi9Eg/photo/AF1QipOPbu1u4GJTgG-PtOfTSda3MPplzi2c5EnG6H7w?key=emhTcERUWnBPQ0MycS1DU3hlS2pnY05aVmxKZnJn" alt="RESULTADO VISTA MOBILE"/>
+<img src="https://photos.app.goo.gl/WLwbb1VesvQjkNhB6" alt="RESULTADO 2"/>
+
+<img src="https://photos.app.goo.gl/iwEUE9fQkZZ5qJh16" alt="RESULTADO 3"/>
+
+<img src="https://photos.app.goo.gl/zowSF3H3aqJANDSFA" alt="RESULTADO 4"/>
+
 
