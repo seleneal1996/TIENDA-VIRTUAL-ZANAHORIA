@@ -1,4 +1,6 @@
 # RESULTADOS
-<img src="https://raw.githubusercontent.com/seleneal1996/TIENDA-VIRTUAL-ZANAHORIA/master/Captura%20de%20pantalla%20de%202022-05-09%2023-07-15.png" alt="RESULTADO FINAL"/>
 
-<img src="https://raw.githubusercontent.com/seleneal1996/TIENDA-VIRTUAL-ZANAHORIA/master/Captura%20de%20pantalla%20de%202022-05-11%2013-49-24.png" alt="RESULTADO VISTA MOBILE"/>
+<img src="https://photos.google.com/share/AF1QipOiZMkhhPhE9U9gqVa0dJ9flzl7roaUNM4JRfeKLKioLxuGmVAwGcWtnKvHoTi9Eg/photo/AF1QipPXPUdg3RsZmzD8gZq_PhJwrB9rKm6PPNbp0RX0?key=emhTcERUWnBPQ0MycS1DU3hlS2pnY05aVmxKZnJn" alt="RESULTADO VISTA MOBILE"/>
+
+<img src="https://photos.google.com/share/AF1QipOiZMkhhPhE9U9gqVa0dJ9flzl7roaUNM4JRfeKLKioLxuGmVAwGcWtnKvHoTi9Eg/photo/AF1QipOPbu1u4GJTgG-PtOfTSda3MPplzi2c5EnG6H7w?key=emhTcERUWnBPQ0MycS1DU3hlS2pnY05aVmxKZnJn" alt="RESULTADO VISTA MOBILE"/>
+
